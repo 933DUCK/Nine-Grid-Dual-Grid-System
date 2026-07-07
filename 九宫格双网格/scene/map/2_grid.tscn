@@ -1,0 +1,184 @@
+[gd_scene format=4 uid="uid://diu6effj27v7l"]
+
+[ext_resource type="TileSet" uid="uid://ngkrxpwfsesv" path="res://assets/tile_set/Char_tile_set.tres" id="1_7kum7"]
+[ext_resource type="Texture2D" uid="uid://dl0jnw4ae1ke6" path="res://assets/sprites/assets/四角.png" id="2_d5d7n"]
+[ext_resource type="Texture2D" uid="uid://bq3lk74dg1mo0" path="res://assets/sprites/assets/四边.png" id="3_vqu3o"]
+[ext_resource type="Texture2D" uid="uid://nbpd11u26bok" path="res://assets/sprites/assets/中心.png" id="4_ymq3y"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gf25r"]
+texture = ExtResource("2_d5d7n")
+0:0/size_in_atlas = Vector2i(2, 2)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(8, 8)
+2:0/size_in_atlas = Vector2i(2, 2)
+2:0/0 = 0
+2:0/0/texture_origin = Vector2i(-8, 8)
+4:0/size_in_atlas = Vector2i(2, 2)
+4:0/0 = 0
+4:0/0/texture_origin = Vector2i(8, 8)
+6:0/size_in_atlas = Vector2i(2, 2)
+6:0/0 = 0
+6:0/0/texture_origin = Vector2i(-8, 8)
+8:0/size_in_atlas = Vector2i(2, 2)
+8:0/0 = 0
+8:0/0/texture_origin = Vector2i(8, 8)
+10:0/size_in_atlas = Vector2i(2, 2)
+10:0/0 = 0
+10:0/0/texture_origin = Vector2i(-8, 8)
+0:2/size_in_atlas = Vector2i(2, 2)
+0:2/0 = 0
+0:2/0/texture_origin = Vector2i(-8, 8)
+2:2/size_in_atlas = Vector2i(2, 2)
+2:2/0 = 0
+2:2/0/texture_origin = Vector2i(-8, -8)
+4:2/size_in_atlas = Vector2i(2, 2)
+4:2/0 = 0
+4:2/0/texture_origin = Vector2i(-8, 8)
+6:2/size_in_atlas = Vector2i(2, 2)
+6:2/0 = 0
+6:2/0/texture_origin = Vector2i(-8, -8)
+8:2/size_in_atlas = Vector2i(2, 2)
+8:2/0 = 0
+8:2/0/texture_origin = Vector2i(-8, 8)
+10:2/size_in_atlas = Vector2i(2, 2)
+10:2/0 = 0
+10:2/0/texture_origin = Vector2i(-8, -8)
+0:4/size_in_atlas = Vector2i(2, 2)
+0:4/0 = 0
+0:4/0/texture_origin = Vector2i(8, 8)
+2:4/size_in_atlas = Vector2i(2, 2)
+2:4/0 = 0
+2:4/0/texture_origin = Vector2i(-8, 8)
+4:4/size_in_atlas = Vector2i(2, 2)
+4:4/0 = 0
+4:4/0/texture_origin = Vector2i(8, 8)
+6:4/size_in_atlas = Vector2i(2, 2)
+6:4/0 = 0
+6:4/0/texture_origin = Vector2i(-8, 8)
+8:4/size_in_atlas = Vector2i(2, 2)
+8:4/0 = 0
+8:4/0/texture_origin = Vector2i(8, 8)
+10:4/size_in_atlas = Vector2i(2, 2)
+10:4/0 = 0
+10:4/0/texture_origin = Vector2i(-8, 8)
+0:6/size_in_atlas = Vector2i(2, 2)
+0:6/0 = 0
+0:6/0/texture_origin = Vector2i(-8, 8)
+2:6/size_in_atlas = Vector2i(2, 2)
+2:6/0 = 0
+2:6/0/texture_origin = Vector2i(-8, -8)
+4:6/size_in_atlas = Vector2i(2, 2)
+4:6/0 = 0
+4:6/0/texture_origin = Vector2i(-8, 8)
+6:6/size_in_atlas = Vector2i(2, 2)
+6:6/0 = 0
+6:6/0/texture_origin = Vector2i(-8, -8)
+8:6/size_in_atlas = Vector2i(2, 2)
+8:6/0 = 0
+8:6/0/texture_origin = Vector2i(-8, 8)
+10:6/size_in_atlas = Vector2i(2, 2)
+10:6/0 = 0
+10:6/0/texture_origin = Vector2i(-8, -8)
+0:8/size_in_atlas = Vector2i(2, 2)
+0:8/0 = 0
+0:8/0/texture_origin = Vector2i(8, 8)
+2:8/size_in_atlas = Vector2i(2, 2)
+2:8/0 = 0
+2:8/0/texture_origin = Vector2i(-8, 8)
+4:8/size_in_atlas = Vector2i(2, 2)
+4:8/0 = 0
+4:8/0/texture_origin = Vector2i(8, 8)
+6:8/size_in_atlas = Vector2i(2, 2)
+6:8/0 = 0
+6:8/0/texture_origin = Vector2i(-8, 8)
+8:8/size_in_atlas = Vector2i(2, 2)
+8:8/0 = 0
+8:8/0/texture_origin = Vector2i(8, 8)
+10:8/size_in_atlas = Vector2i(2, 2)
+10:8/0 = 0
+10:8/0/texture_origin = Vector2i(-8, 8)
+0:10/size_in_atlas = Vector2i(2, 2)
+0:10/0 = 0
+0:10/0/texture_origin = Vector2i(-8, 8)
+2:10/size_in_atlas = Vector2i(2, 2)
+2:10/0 = 0
+2:10/0/texture_origin = Vector2i(-8, -8)
+4:10/size_in_atlas = Vector2i(2, 2)
+4:10/0 = 0
+4:10/0/texture_origin = Vector2i(-8, 8)
+6:10/size_in_atlas = Vector2i(2, 2)
+6:10/0 = 0
+6:10/0/texture_origin = Vector2i(-8, -8)
+8:10/size_in_atlas = Vector2i(2, 2)
+8:10/0 = 0
+8:10/0/texture_origin = Vector2i(-8, 8)
+10:10/size_in_atlas = Vector2i(2, 2)
+10:10/0 = 0
+10:10/0/texture_origin = Vector2i(-8, -8)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ldfpj"]
+texture = ExtResource("3_vqu3o")
+0:2/size_in_atlas = Vector2i(2, 3)
+0:2/0 = 0
+0:2/0/texture_origin = Vector2i(8, 0)
+1:5/size_in_atlas = Vector2i(3, 2)
+1:5/0 = 0
+1:5/0/texture_origin = Vector2i(0, -8)
+3:2/size_in_atlas = Vector2i(2, 3)
+3:2/0 = 0
+3:2/0/texture_origin = Vector2i(-8, 0)
+1:0/size_in_atlas = Vector2i(3, 2)
+1:0/0 = 0
+1:0/0/texture_origin = Vector2i(0, 8)
+6:0/size_in_atlas = Vector2i(3, 2)
+6:0/0 = 0
+6:0/0/texture_origin = Vector2i(0, 8)
+5:2/size_in_atlas = Vector2i(2, 3)
+5:2/0 = 0
+5:2/0/texture_origin = Vector2i(8, 0)
+6:5/size_in_atlas = Vector2i(3, 2)
+6:5/0 = 0
+6:5/0/texture_origin = Vector2i(0, -8)
+8:2/size_in_atlas = Vector2i(2, 3)
+8:2/0 = 0
+8:2/0/texture_origin = Vector2i(-8, 0)
+10:2/size_in_atlas = Vector2i(2, 3)
+10:2/0 = 0
+10:2/0/texture_origin = Vector2i(8, 0)
+11:5/size_in_atlas = Vector2i(3, 2)
+11:5/0 = 0
+11:5/0/texture_origin = Vector2i(0, -8)
+13:2/size_in_atlas = Vector2i(2, 3)
+13:2/0 = 0
+13:2/0/texture_origin = Vector2i(-8, 0)
+11:0/size_in_atlas = Vector2i(3, 2)
+11:0/0 = 0
+11:0/0/texture_origin = Vector2i(0, 8)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dmovb"]
+texture = ExtResource("4_ymq3y")
+0:0/size_in_atlas = Vector2i(3, 3)
+0:0/0 = 0
+0:0/0/z_index = -1
+4:0/size_in_atlas = Vector2i(3, 3)
+4:0/0 = 0
+4:0/0/z_index = -1
+8:0/size_in_atlas = Vector2i(3, 3)
+8:0/0 = 0
+8:0/0/z_index = -1
+
+[sub_resource type="TileSet" id="TileSet_7kum7"]
+sources/0 = SubResource("TileSetAtlasSource_gf25r")
+sources/1 = SubResource("TileSetAtlasSource_ldfpj")
+sources/2 = SubResource("TileSetAtlasSource_dmovb")
+
+[node name="2Grid" type="Node2D" unique_id=1188119253]
+
+[node name="ViewLayer" type="TileMapLayer" parent="." unique_id=1792595389]
+position = Vector2(8, 8)
+tile_map_data = PackedByteArray("AAD9//3/AgAAAAAAAAABAAEAAgAAAAAAAAABAP3/AgAEAAAAAAD9/wEAAgAIAAAAAAD8//3/AQAAAAIAAAD+//3/AQADAAIAAAD9//z/AQABAAAAAAD9//7/AQABAAUAAAAAAP3/AQAFAAIAAAABAPz/AQAGAAAAAAACAP3/AQAIAAIAAAABAP7/AQAGAAUAAAD9/wAAAQALAAAAAAD9/wIAAQALAAUAAAD+/wEAAQANAAIAAAD8/wEAAQAKAAIAAAAAAAEAAQAAAAIAAAACAAEAAQADAAIAAAABAAAAAQABAAAAAAABAAIAAQABAAUAAAD+//7/AAACAAoAAAAAAAAAAAAAAAgAAAD/////AAAEAAIAAAD+/wAAAAAKAAAAAAA=")
+tile_set = SubResource("TileSet_7kum7")
+
+[node name="CharLayer" type="TileMapLayer" parent="." unique_id=1061689230]
+tile_map_data = PackedByteArray("AAD/////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAABAAAAAAD//wAAAAACAAAAAAA=")
+tile_set = ExtResource("1_7kum7")
